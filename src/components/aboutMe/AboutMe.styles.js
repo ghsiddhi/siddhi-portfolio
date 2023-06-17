@@ -71,7 +71,7 @@ export const ImageSideContainer = styled("div")(() => ({
   },
 }));
 
-export const WorkEmoji = styles("div")(() => ({
+export const WorkEmoji = styled("div")(() => ({
   position: "absolute",
   zIndex: 10,
   width: "6rem !important",

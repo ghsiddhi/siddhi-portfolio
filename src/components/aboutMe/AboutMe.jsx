@@ -8,7 +8,7 @@ import {
   WorkEmoji,
 } from "./AboutMe.styles";
 
-function AboutMe() {
+export const AboutMe = () => {
   return (
     <>
       <SectionWrapper>
@@ -49,6 +49,4 @@ function AboutMe() {
       </SectionWrapper>
     </>
   );
-}
-
-export default AboutMe;
+};
