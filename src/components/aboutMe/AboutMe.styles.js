@@ -12,6 +12,10 @@ export const SectionContainer = styled("div")(() => ({
   maxWidth: "107rem",
   margin: "0 auto",
   padding: "0 4rem",
+  "@media (max-width: 460px)": {
+    gridTemplateColumns: "1fr",
+    padding: "0 1.7rem",
+  },
 }));
 
 export const AboutContent = styled("div")(() => ({
