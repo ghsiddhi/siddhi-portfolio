@@ -1,0 +1,651 @@
+var _desc, _defs;
+var _excluded = ["title", "titleId"];
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = _objectWithoutPropertiesLoose(source, excluded); var key, i; if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
+import * as React from "react";
+function SvgText2(_ref, svgRef) {
+  var title = _ref.title,
+    titleId = _ref.titleId,
+    props = _objectWithoutProperties(_ref, _excluded);
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    xmlnsXlink: "http://www.w3.org/1999/xlink",
+    width: 1000,
+    height: 1000,
+    viewBox: "0 0 1000 1000",
+    xmlSpace: "preserve",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _desc || (_desc = /*#__PURE__*/React.createElement("desc", null, "Created with Fabric.js 2.3.2")), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null)), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(500 500) scale(5.65 5.65)"
+  }, /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-28.23 66.32) rotate(-160.54)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.03,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "F"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-43.23 57.39) rotate(-146.17)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -4.98,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "R"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-55.37 45.25) rotate(-131.88)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -4.73,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "O"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-64.61 29.78) rotate(-117.94)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.76,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "N"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-69.48 12.4) rotate(-102.53)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.01,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "T"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-69.85 -5.12) rotate(-88.18)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.06,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "-"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-65.78 -22.49) rotate(-73.78)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.35,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "E"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-57.08 -38.79) rotate(-58.96)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.76,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "N"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-44.84 -51.77) rotate(-43.54)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -4.81,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "D"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-32.16 -60.01) rotate(-29.5)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -2.81,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal",
+      whiteSpace: "pre"
+    }
+  }))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(-15.58 -66.32) rotate(-18.31)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -6.93,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "W"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(3.63 -67.77) rotate(-1.22)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.35,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "E"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(21.44 -64.45) rotate(13.59)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.4,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "B"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(35.56 -57.88) rotate(28.49)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -2.81,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal",
+      whiteSpace: "pre"
+    }
+  }))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(48.06 -48.52) rotate(39.68)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -4.81,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "D"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(59.24 -34.85) rotate(53.72)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.35,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "E"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(66.5 -18.98) rotate(68.54)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -4.74,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "V"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(69.71 -1.66) rotate(82.5)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.35,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "E"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(68.48 15.39) rotate(97.32)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -4.37,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "L"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(63.41 31.31) rotate(110.74)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -4.73,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "O"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(54.52 45.76) rotate(124.69)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -4.71,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "P"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(41.96 58.06) rotate(138.59)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -5.35,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "E"))), /*#__PURE__*/React.createElement("g", {
+    transform: "translate(26.58 66.83) rotate(153.41)"
+  }, /*#__PURE__*/React.createElement("text", {
+    xmlSpace: "preserve",
+    fontFamily: "BubbleLetterRegular",
+    fontSize: 18,
+    fontStyle: "normal",
+    fontWeight: "normal",
+    style: {
+      stroke: "none",
+      strokeWidth: 0,
+      strokeDasharray: "none",
+      strokeLinecap: "butt",
+      strokeLinejoin: "miter",
+      strokeMiterlimit: 4,
+      fill: "rgb(0,0,0)",
+      fillRule: "nonzero",
+      opacity: 1,
+      whiteSpace: "pre"
+    }
+  }, /*#__PURE__*/React.createElement("tspan", {
+    x: -4.98,
+    y: 5.65,
+    style: {
+      fontStyle: "normal",
+      fontWeight: "normal"
+    }
+  }, "R")))));
+}
+var ForwardRef = /*#__PURE__*/React.forwardRef(SvgText2);
+export default __webpack_public_path__ + "static/media/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg";
+export { ForwardRef as ReactComponent };
