@@ -1,12 +1,9 @@
-import "../src/styles.css";
-import Home from "./pages/Home.jsx";
-
-function App() {
+export const App = () => {
   return (
     <>
       <Home />
     </>
   );
-}
+};
 
 export default App;
