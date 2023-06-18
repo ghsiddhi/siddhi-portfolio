@@ -4,12 +4,13 @@
   "description": "This is a v2 of my portfolio website",
   "repository": "https://github.com/siddhi-gh/siddhi-portfolio-v2.git",
   "author": "Siddhi <siddhiusgupta@gmail.com>",
-  "homepage": "https://siddhi-gh/github.io/siddhi-portfolio-v2",
+  "homepage": "https://siddhi-gh.github.io/siddhi-portfolio-v2",
   "license": "MIT",
   "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "deploy": "gh-pages -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
