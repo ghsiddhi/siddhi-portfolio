@@ -1,4 +1,4 @@
-import Waving from "../../images/icons/waving.png";
+import Waving from "../../images/waving.png";
 import Html from "../../images/icons/html.svg";
 import Css from "../../images/icons/css3.svg";
 import Js from "../../images/icons/javascript.svg";

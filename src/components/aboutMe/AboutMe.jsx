@@ -1,3 +1,5 @@
+import  AboutImg  from "../../images/aboutImg.webp";
+import WorkingEmoji from "../../images/workingEmoji.png";
 import {
   AboutContent,
   ContentImage,
@@ -14,11 +16,8 @@ export const AboutMe = () => {
       <SectionContainer>
         <AboutContent>
           <ImageSideContainer>
-            <WorkEmoji src="\u{1F469}\u{1F3FB}\u{200D}\u{1F4BB}" alt="emoji" />
-            <ContentImage
-              src="https://stefantopalovicdev.vercel.app/static/media/about-img.62b47e7f183d4b4e9feb.webp"
-              alt="mee"
-            />
+            <WorkEmoji src={WorkingEmoji} alt="emoji" />
+            <ContentImage src={AboutImg} alt="mee" />
             <span>
               <img src={"RoundedText"} alt="text" />
             </span>
