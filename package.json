@@ -1,7 +1,6 @@
 {
   "name": "siddhi-portfolio-v2",
   "version": "1.0.0",
-  
   "description": "This is a v2 of my portfolio website",
   "repository": "https://github.com/siddhi-gh/siddhi-portfolio-v2.git",
   "author": "Siddhi <siddhiusgupta@gmail.com>",
@@ -12,7 +11,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -b main -d build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
