@@ -61,7 +61,7 @@ export const Hero = () => {
                     aria-label="linkedin"
                     rel="noreferrer"
                     target="_blank"
-                    href="https://www.linkedin.com/in/stefan-topalovic-dev/"
+                    href="https://www.linkedin.com/in/siddhi-gupta-/"
                   >
                     <HeroTextSpanI className="fa-brands fa-linkedin"></HeroTextSpanI>
                   </HeroTextSpanA>
@@ -69,7 +69,7 @@ export const Hero = () => {
                     aria-label="github"
                     rel="noreferrer"
                     target="_blank"
-                    href="https://github.com/stefvndev"
+                    href="https://github.com/siddhi-gh"
                   >
                     <HeroTextSpanI className="fa-brands fa-github"></HeroTextSpanI>
                   </HeroTextSpanA>
