@@ -152,7 +152,7 @@ const morphAnimation = keyframes({
 });
 
 export const HeroImage = styled("div")(() => ({
-  backgroundImage: 'url("https://github.com/siddhi-gh/siddhi-portfolio-v2/blob/main/src/images/my-img.jpeg")',
+  backgroundImage: 'url("https://github.com/siddhi-gh/siddhi-portfolio-v2/blob/main/src/images/my-img.webp")',
   width: "35rem",
   height: "35rem",
   backgroundSize: "cover",
