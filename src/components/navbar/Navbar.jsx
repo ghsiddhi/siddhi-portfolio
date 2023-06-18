@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Nav, NavUl, NavUlA } from "./Navbar.styles";
+import { Nav, NavUl, NavUlA, NavLogo } from "./Navbar.styles";
 
 export const Navbar = () => {
   const [hamburger, setHamburger] = useState(false);
@@ -33,9 +33,7 @@ export const Navbar = () => {
 
   return (
     <Nav>
-      <h3 onClick={pageUp} className="logo">
-        Siddhi.dev
-      </h3>
+      <NavLogo onClick={pageUp}>Siddhi.dev</NavLogo>
       <NavUl>
         {navlinks.map((item) => (
           <li key={item.name}>

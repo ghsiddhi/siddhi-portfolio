@@ -156,7 +156,7 @@ export const HeroImage = styled("div")(() => ({
   width: "35rem",
   height: "35rem",
   backgroundSize: "cover",
-  backgroundPosition: "center center",
+  backgroundPosition: "50%",
   backgroundRepeat: "no-repeat",
   border: "3px solid #2d2e32",
   animation: `${morphAnimation} 8s ease-in-out infinite`,

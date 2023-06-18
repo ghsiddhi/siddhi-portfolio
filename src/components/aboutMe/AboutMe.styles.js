@@ -71,7 +71,7 @@ export const ImageSideSpanImage = styled("img")(() => ({
   },
 }));
 
-export const WorkEmoji = styled("div")(() => ({
+export const WorkEmoji = styled("img")(() => ({
   position: "absolute",
   zIndex: 10,
   width: "6rem !important",
@@ -90,7 +90,7 @@ export const WorkEmoji = styled("div")(() => ({
   },
 }));
 
-export const ContentImage = styled("div")(() => ({
+export const ContentImage = styled("img")(() => ({
   width: "41rem",
   height: "35rem",
   borderRadius: "1.7rem",
