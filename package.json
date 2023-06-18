@@ -1,10 +1,12 @@
 {
   "name": "siddhi-portfolio-v2",
   "version": "1.0.0",
+  
   "description": "This is a v2 of my portfolio website",
   "repository": "https://github.com/siddhi-gh/siddhi-portfolio-v2.git",
   "author": "Siddhi <siddhiusgupta@gmail.com>",
   "homepage": "https://siddhi-gh.github.io/siddhi-portfolio-v2",
+  "main": "index.js",
   "license": "MIT",
   "private": true,
   "scripts": {
