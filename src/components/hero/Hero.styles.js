@@ -1,5 +1,6 @@
 import { styled } from "@mui/material";
 import { keyframes } from "@emotion/react";
+import myImage from "../../images/my-img.webp";
 
 export const HeroWrapper = styled("section")(() => ({
   display: "flex",
@@ -152,7 +153,7 @@ const morphAnimation = keyframes({
 });
 
 export const HeroImage = styled("div")(() => ({
-  backgroundImage: 'url("https://github.com/siddhi-gh/siddhi-portfolio-v2/blob/main/src/images/my-img.webp")',
+  backgroundImage: `url(${myImage})`,
   width: "35rem",
   height: "35rem",
   backgroundSize: "cover",
