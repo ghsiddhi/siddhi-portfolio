@@ -5,7 +5,6 @@
   "repository": "https://github.com/siddhi-gh/siddhi-portfolio-v2.git",
   "author": "Siddhi <siddhiusgupta@gmail.com>",
   "homepage": "https://siddhi-gh.github.io/siddhi-portfolio-v2",
-  "main": "index.html",
   "license": "MIT",
   "private": true,
   "scripts": {
