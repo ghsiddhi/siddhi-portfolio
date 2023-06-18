@@ -69,7 +69,7 @@ export const Hero = () => {
                     aria-label="github"
                     rel="noreferrer"
                     target="_blank"
-                    href="https://github.com/siddhi-gh"
+                    href="https://github.com/siddhijll"
                   >
                     <HeroTextSpanI className="fa-brands fa-github"></HeroTextSpanI>
                   </HeroTextSpanA>
