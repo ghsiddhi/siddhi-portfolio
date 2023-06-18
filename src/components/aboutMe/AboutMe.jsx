@@ -12,7 +12,7 @@ import {
 
 export const AboutMe = () => {
   return (
-    <SectionWrapper>
+    <SectionWrapper id="about">
       <SectionContainer>
         <AboutContent>
           <ImageSideContainer>

@@ -45,7 +45,7 @@ export const Hero = () => {
 
   return (
     <>
-      <HeroWrapper>
+      <HeroWrapper id="home">
         <SectionContainer>
           <SectionContent>
             <HeroMain>
