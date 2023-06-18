@@ -1,5 +1,4 @@
-import  AboutImg  from "../../images/aboutImg.webp";
-import WorkingEmoji from "../../images/workingEmoji.png";
+import { AboutImg, RoundedText, WorkingEmoji } from "../../images";
 import {
   AboutContent,
   ContentImage,
@@ -8,6 +7,11 @@ import {
   SectionContainer,
   SectionWrapper,
   WorkEmoji,
+  ContentTextH3,
+  ContentTextH4,
+  ContentTextP,
+  ImageSideSpan,
+  ImageSideSpanImage,
 } from "./AboutMe.styles";
 
 export const AboutMe = () => {
@@ -18,17 +22,17 @@ export const AboutMe = () => {
           <ImageSideContainer>
             <WorkEmoji src={WorkingEmoji} alt="emoji" />
             <ContentImage src={AboutImg} alt="mee" />
-            <span>
-              <img src={"RoundedText"} alt="text" />
-            </span>
+            <ImageSideSpan>
+              <ImageSideSpanImage src={RoundedText} alt="text" />
+            </ImageSideSpan>
           </ImageSideContainer>
           <ContentText>
-            <h3>About me</h3>
-            <h4>
+            <ContentTextH3>About me</ContentTextH3>
+            <ContentTextH4>
               A dedicated Front-end Developer <br /> based in Bangalore, India
               📍
-            </h4>
-            <p>
+            </ContentTextH4>
+            <ContentTextP>
               As a Junior Front-End Developer, I possess an impressive arsenal
               of skills in CSS, JavaScript, TypeScript and React. I excel in
               designing and maintaining responsive websites that offer a smooth
@@ -37,7 +41,7 @@ export const AboutMe = () => {
               cutting-edge development tools and techniques. I am also a team
               player who thrives in collaborating with cross-functional teams to
               produce outstanding web applications.
-            </p>
+            </ContentTextP>
           </ContentText>
         </AboutContent>
       </SectionContainer>
