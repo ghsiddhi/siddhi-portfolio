@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.js": "/siddhi-portfolio-v2/static/js/main.735df3e0.js",
+    "static/media/my-img.webp": "/siddhi-portfolio-v2/static/media/my-img.bcd44f5006876dd99aaf.webp",
+    "static/media/about-img.webp": "/siddhi-portfolio-v2/static/media/about-img.62b47e7f183d4b4e9feb.webp",
+    "static/media/waving.png": "/siddhi-portfolio-v2/static/media/waving.1bae5fcfb51082b5c2b4.png",
+    "static/media/workingEmoji.png": "/siddhi-portfolio-v2/static/media/workingEmoji.c5325f52b5be329995a5.png",
+    "static/media/text2.svg": "/siddhi-portfolio-v2/static/media/text2.3d5aa6ba2d0632bb4e0572631c3f9dc2.svg",
+    "static/media/react.svg": "/siddhi-portfolio-v2/static/media/react.afac9c43724070bf6674f2692b7356a9.svg",
+    "index.html": "/siddhi-portfolio-v2/index.html",
+    "static/media/javascript.svg": "/siddhi-portfolio-v2/static/media/javascript.de4c2594613e34b15666206bbede7327.svg",
+    "static/media/css3.svg": "/siddhi-portfolio-v2/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
+    "static/media/html.svg": "/siddhi-portfolio-v2/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
+    "main.735df3e0.js.map": "/siddhi-portfolio-v2/static/js/main.735df3e0.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.735df3e0.js"
+  ]
+}
