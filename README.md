@@ -16,11 +16,12 @@ https://siddhi-gh.github.io/siddhi-portfolio/
 - Yarn (package manager)
 
 ### To run this project locally:
+Run the following commands in CLI:
 - Run `yarn` to install the node modules.
 - Run `yarn start` to run the project on local development server.
 
 ### To deploy this project on git pages:
-Run the following command in CLI:
+Run the following commands in CLI:
 - `yarn add gh-pages` for static site hosting.
 - `yarn` to update node modules.
 - `yarn build` to ensure the project build.
