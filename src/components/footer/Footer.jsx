@@ -24,7 +24,7 @@ export const Footer = () => {
               href="https://www.linkedin.com/in/siddhi-gupta-/"
             >
               <FooterRcSocialIcon>
-              <FaLinkedin />
+                <FaLinkedin />
               </FooterRcSocialIcon>
             </a>
             <a
@@ -34,7 +34,7 @@ export const Footer = () => {
               href="https://github.com/siddhijll"
             >
               <FooterRcSocialIcon>
-              <FaGithub />
+                <FaGithub />
               </FooterRcSocialIcon>
             </a>
           </FooterRcSocials>

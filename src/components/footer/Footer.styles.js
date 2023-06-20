@@ -8,7 +8,7 @@ export const FooterWrapper = styled("footer")(() => ({
 
 export const FooterText = styled("h3")(() => ({
   fontSize: "1.7rem",
-  color: 'white',
+  color: "white",
 }));
 
 export const SectionContainer = styled("div")(() => ({
@@ -23,8 +23,8 @@ export const SectionContainer = styled("div")(() => ({
 
 export const FooterRc = styled("div")(() => ({
   display: "flex",
-  justifyContent: 'space-between',
-  alignItems: 'center',
+  justifyContent: "space-between",
+  alignItems: "center",
   "@media (max-width: 550px)": {
     flexWrap: "wrap",
     justifyContent: "center",

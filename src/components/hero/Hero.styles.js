@@ -47,7 +47,7 @@ export const SectionContent = styled("div")(() => ({
 }));
 
 export const HeroMain = styled("div")(() => ({
-  display: 'flex',
+  display: "flex",
   justifyContent: "center",
   alignItems: "center",
   gap: "10rem",
