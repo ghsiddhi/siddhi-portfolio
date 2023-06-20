@@ -5,7 +5,7 @@ It was built to showcase my technical knowledge & web design skills.
 ### Live Link
 https://siddhi-gh.github.io/siddhi-portfolio/
 
-### Tech stack Used
+### Tech stack used
 - HTML
 - CSS
 - JavaScript
