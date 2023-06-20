@@ -1,4 +1,4 @@
-import { AboutImg, RoundedText, WorkingEmoji } from "../../images";
+import { AboutImg, RoundedText, WomanTechnologist } from "../../images";
 import {
   AboutContent,
   ContentImage,
@@ -20,7 +20,7 @@ export const AboutMe = () => {
       <SectionContainer>
         <AboutContent>
           <ImageSideContainer>
-            <WorkEmoji src={WorkingEmoji} alt="emoji" />
+            <WorkEmoji src={WomanTechnologist} alt="emoji" />
             <ContentImage src={AboutImg} alt="mee" />
             <ImageSideSpan>
               <ImageSideSpanImage src={RoundedText} alt="text" />
