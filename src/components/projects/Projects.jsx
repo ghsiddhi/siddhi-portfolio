@@ -9,7 +9,7 @@ export const Projects = () => {
     <ProjectSection id="projects">
       <SectionContainer>
         <NewProjects className="new-projects">
-          New projects coming soon.. 🤠
+          New projects coming soon...🙂 Stay tuned!
         </NewProjects>
       </SectionContainer>
     </ProjectSection>
