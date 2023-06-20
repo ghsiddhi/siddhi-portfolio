@@ -40,3 +40,73 @@ export const NavUlA = styled("a")(() => ({
   },
   ":hover": { color: "#147efb" },
 }));
+
+export const MobileMenu = styled("i")(() => ({
+  cursor: "pointer",
+  display: "none",
+  fontSize: "2.3rem",
+  "@media (max-width: 900px)": {
+    display: "flex",
+  },
+  ":hover": { color: "#147efb", transition: "all .3s" },
+}));
+
+export const MobileNavOpen = styled("div")(() => ({
+  alignItems: "center",
+  backgroundColor: "#fff",
+  display: "flex",
+  height: "100vh",
+  justifyContent: "center",
+  left: "0 !important",
+  position: "fixed",
+  textAlign: "center",
+  top: 0,
+  transition: "all .3s ease-in-out",
+  width: "100%",
+  zIndex: 300,
+}));
+
+export const MobileNavClose = styled("div")(() => ({
+  alignItems: "center",
+  backgroundColor: "#fff",
+  display: "flex",
+  height: "100vh",
+  justifyContent: "center",
+  left: "-100% !important",
+  position: "fixed",
+  textAlign: "center",
+  top: 0,
+  transition: "all .3s ease-in-out",
+  width: "100%",
+  zIndex: 300,
+}));
+
+export const MobileNavSpan = styled("span")(() => ({
+  cursor: "pointer",
+  fontSize: "3.3rem",
+  position: "absolute",
+  right: "4rem",
+  top: "2rem",
+  ":hover": {
+    color: "#147efb",
+    transition: "all .3s",
+  },
+}));
+
+export const MobileNavUl = styled("ul")(() => ({
+  display: "flex",
+  flexDirection: "column",
+  fontSize: "2.3rem",
+  gap: "4rem",
+  listStyle: "none",
+}));
+
+export const MobileNavUla = styled("a")(() => ({
+  color: "#000",
+  fontWeight: 500,
+  textDecoration: "none",
+  ":hover": {
+    color: "#147efb",
+    transition: "all .3s",
+  },
+}));
