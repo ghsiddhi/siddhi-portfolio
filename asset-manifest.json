@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/siddhi-portfolio/static/css/main.70b6e5cf.css",
-    "main.js": "/siddhi-portfolio/static/js/main.baeeae40.js",
+    "main.js": "/siddhi-portfolio/static/js/main.d7626ee1.js",
     "static/media/my-img.webp": "/siddhi-portfolio/static/media/my-img.bcd44f5006876dd99aaf.webp",
     "static/media/about-img.webp": "/siddhi-portfolio/static/media/about-img.62b47e7f183d4b4e9feb.webp",
     "static/media/womanTechnologist.png": "/siddhi-portfolio/static/media/womanTechnologist.b176e3b400d8c2535c81.png",
@@ -15,10 +15,10 @@
     "static/media/css3.svg": "/siddhi-portfolio/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
     "static/media/html.svg": "/siddhi-portfolio/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
     "main.70b6e5cf.css.map": "/siddhi-portfolio/static/css/main.70b6e5cf.css.map",
-    "main.baeeae40.js.map": "/siddhi-portfolio/static/js/main.baeeae40.js.map"
+    "main.d7626ee1.js.map": "/siddhi-portfolio/static/js/main.d7626ee1.js.map"
   },
   "entrypoints": [
     "static/css/main.70b6e5cf.css",
-    "static/js/main.baeeae40.js"
+    "static/js/main.d7626ee1.js"
   ]
 }
