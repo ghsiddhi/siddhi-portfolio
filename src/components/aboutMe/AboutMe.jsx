@@ -1,4 +1,4 @@
-import { AboutImg, RoundedText, WomanTechnologist } from "../../images";
+import { DeskSetup, RoundedText, WomanTechnologist } from "../../images";
 import {
   AboutContent,
   ContentImage,
@@ -21,7 +21,7 @@ export const AboutMe = () => {
         <AboutContent>
           <ImageSideContainer>
             <WorkEmoji src={WomanTechnologist} alt="emoji" />
-            <ContentImage src={AboutImg} alt="mee" />
+            <ContentImage src={DeskSetup} alt="mee" />
             <ImageSideSpan>
               <ImageSideSpanImage src={RoundedText} alt="text" />
             </ImageSideSpan>
@@ -29,7 +29,7 @@ export const AboutMe = () => {
           <ContentText>
             <ContentTextH3>About me</ContentTextH3>
             <ContentTextH4>
-              A dedicated Front-end Developer <br /> based in Bangalore, India
+              A dedicated Front-end Developer <br /> based in Bengaluru, India
               📍
             </ContentTextH4>
             <ContentTextP>
@@ -38,7 +38,7 @@ export const AboutMe = () => {
               designing and maintaining responsive websites that offer a smooth
               user experience. My expertise lies in crafting engaging interfaces
               through writing clean and optimized code and utilizing
-              cutting-edge development tools and techniques. I am a team player
+              cutting-edge development tools and techniques. I am also a team player
               who thrives in collaborating with cross-functional teams to
               produce outstanding web applications.
             </ContentTextP>

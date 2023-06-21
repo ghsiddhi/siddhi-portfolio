@@ -31,7 +31,7 @@ export const Contact = () => {
               </ContactIconBoxSpan>
               <ContactInfo>
                 <ContactInfoH3>Location</ContactInfoH3>
-                <ContactInfoP>Bangalore, India</ContactInfoP>
+                <ContactInfoP>Bengaluru, India</ContactInfoP>
               </ContactInfo>
             </ContactIconBox>
 
@@ -40,7 +40,7 @@ export const Contact = () => {
                 <ContactIconBoxSpanI className="fa-solid fa-envelope-open-text"></ContactIconBoxSpanI>
               </ContactIconBoxSpan>
               <ContactInfo>
-                <ContactInfoH3>Mail</ContactInfoH3>
+                <ContactInfoH3>Email</ContactInfoH3>
                 <ContactInfoA href="mailto:siddhiusgupta@gmail.com">
                   siddhiusgupta@gmail.com
                 </ContactInfoA>

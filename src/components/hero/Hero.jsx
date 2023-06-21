@@ -63,7 +63,7 @@ export const Hero = () => {
               <HeroTextSpanImg src={Waving} alt="waving_hand" />
               <HeroTextP>
                 Hi, I'm Siddhi Gupta. A passionate Front-end React Developer
-                based in Bangalore, India. 📍
+                based in Bengaluru, India. 📍
               </HeroTextP>
               <HeroTextSpan>
                 <HeroTextSpanA
