@@ -2,7 +2,7 @@
 This is a Portfolio website built in React.
 It was created to showcase my technical knowledge & web design skills.
 
-### Live Link
+### Live link
 https://siddhi-gh.github.io/siddhi-portfolio/
 
 ### Tech stack used
