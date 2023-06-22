@@ -28,4 +28,4 @@ https://siddhi-gh.github.io/siddhi-portfolio/
 - `yarn add gh-pages` for static site hosting.
 - `yarn` to update node modules.
 - `yarn build` to ensure the project build.
-- `yarn run deploy` to deploy the project.
+- `yarn deploy` to deploy the project.
