@@ -20,7 +20,7 @@ export const Nav = styled("nav")(() => ({
 }));
 
 export const NavLogo = styled("h3")(() => ({
-  cursor: "pointer",
+  cursor: "default",
   color: "#2d2e32",
 }));
 

@@ -220,7 +220,6 @@ export const SkillsUlLi = styled("li")(() => ({
   borderRadius: "50%",
   backgroundColor: "white",
   boxShadow: "0px 0px 10px rgba(0, 0, 0, 0.09)",
-  cursor: "pointer",
 }));
 
 export const SkillsUlLiImg = styled("img")(() => ({
