@@ -1,5 +1,5 @@
 ## Siddhi's Portfolio
-This is a Portfolio website built in React.
+This is a Portfolio website built with React.js.
 
 It was created to showcase my technical knowledge & web design skills as a Front-end React Developer.
 
