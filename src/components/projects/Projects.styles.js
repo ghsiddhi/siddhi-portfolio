@@ -22,3 +22,25 @@ export const NewProjects = styled("h2")(() => ({
   textAlign: "center",
   color: "#2d2e32",
 }));
+
+export const ProjectContent = styled("div")(() => ({
+  display: "flex",
+  flexDirection: "column",
+  "@media (max-width:600px)": {
+    textAlign: "center",
+  },
+}));
+
+export const ProjectContentP = styled("p")(() => ({
+  color: "#147efb",
+  fontSize: "1.7rem",
+  fontWeight: 700,
+  marginBottom: "1rem",
+  textTransform: "uppercase",
+}));
+
+export const ProjectContentH3 = styled("h3")(() => ({
+  color: "#2d2e32",
+  fontSize: "2.5rem",
+  marginBottom: "6rem",
+}));
