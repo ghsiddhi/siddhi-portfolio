@@ -31,7 +31,7 @@ export const Footer = () => {
               aria-label="github"
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/siddhijll"
+              href="https://github.com/siddhi-gh"
             >
               <FooterRcSocialIcon>
                 <FaGithub />
