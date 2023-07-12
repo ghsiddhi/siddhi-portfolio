@@ -44,3 +44,13 @@ export const ProjectContentH3 = styled("h3")(() => ({
   fontSize: "2.5rem",
   marginBottom: "6rem",
 }));
+
+export const ProjectsGrid = styled("div")(() => ({
+  gridGap: "5rem",
+  display: "grid",
+  gap: "5rem",
+  gridTemplateColumns: "1fr",
+  gridTemplateRows: "auto auto",
+  height: "auto",
+  width: "100%",
+}));
