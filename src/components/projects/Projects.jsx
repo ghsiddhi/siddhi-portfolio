@@ -5,6 +5,7 @@ import {
   ProjectContent,
   ProjectContentP,
   ProjectContentH3,
+  ProjectsGrid,
 } from "./Projects.styles";
 
 export const Projects = () => {
@@ -17,8 +18,8 @@ export const Projects = () => {
             <ProjectContentH3>
               Each project is a unique piece of development 🧩
             </ProjectContentH3>
-            {/* <div className="projects-grid">
-              <ProBox
+            <ProjectsGrid>
+              {/* <ProBox
                 title="Car Rental"
                 img={CarRental}
                 description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
@@ -28,8 +29,8 @@ export const Projects = () => {
                 demo="https://car-rental-ten.vercel.app/"
                 scrollY="-83%"
                 icon="🚗"
-              />
-            </div> */}
+              /> */}
+            </ProjectsGrid>
           </ProjectContent>
           {/* <NewProjects className="new-projects">
             New projects coming soon...🙂
