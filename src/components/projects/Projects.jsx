@@ -14,7 +14,7 @@ export const Projects = () => {
       <ProjectSection id="projects">
         <SectionContainer>
           <ProjectContent>
-            <ProjectContentP>portfolio</ProjectContentP>
+            <ProjectContentP>projects</ProjectContentP>
             <ProjectContentH3>
               Each project is a unique piece of development 🧩
             </ProjectContentH3>
