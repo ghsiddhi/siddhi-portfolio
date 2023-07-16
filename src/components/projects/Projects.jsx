@@ -20,15 +20,16 @@ export const Projects = () => {
             </ProjectContentH3>
             <ProjectsGrid>
               {/* <ProBox
-                title="Car Rental"
-                img={CarRental}
-                description="A car rental website is an online platform that allows users to rent cars for personal or business use. The website provides an interface for searching, comparing, and reserving cars."
+                title="coindom"
+                img={CoinDom}
+                description="Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time."
                 techno1="React"
                 techno2="SCSS"
-                code="https://github.com/stefvndev/car-rental"
-                demo="https://car-rental-ten.vercel.app/"
-                scrollY="-83%"
-                icon="🚗"
+                code="https://github.com/stefvndev/coindom-crypto"
+                demo="https://coindom-crypto-search.vercel.app/"
+                scrollY="-74%"
+                icon="🪙"
+                cName="reversed-proj"
               /> */}
             </ProjectsGrid>
           </ProjectContent>
