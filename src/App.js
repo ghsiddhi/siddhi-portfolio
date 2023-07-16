@@ -1,10 +1,5 @@
 import React from "react";
-import { AboutMe } from "./components/aboutMe/AboutMe";
-import { Contact } from "./components/contact/Contact";
-import { Footer } from "./components/footer/Footer";
-import { Hero } from "./components/hero/Hero";
-import { Navbar } from "./components/navbar/Navbar";
-import { Projects } from "./components/projects/Projects";
+import { AboutMe, Contact, Footer, Hero, Navbar, Projects } from "./components";
 
 export const App = () => {
   return (
