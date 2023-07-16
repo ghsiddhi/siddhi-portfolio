@@ -1,6 +1,7 @@
 import * as React from "react";
+import { ProBoxPro } from "./ProBox.styles";
 
-const ProBox = ({
+export const ProBox = ({
   title,
   img,
   description,
@@ -15,7 +16,7 @@ const ProBox = ({
   const [scroll, setScroll] = React.useState(false);
 
   return (
-    <div className={`pro pro__1 ${cName}`}>
+    <ProBoxPro cName={cName}>
       <div className="pro__img">
         <a target="_blank" href={demo} rel="noreferrer">
           <img
@@ -49,8 +50,6 @@ const ProBox = ({
           </a>
         </div>
       </div>
-    </div>
+    </ProBoxPro>
   );
 };
-
-export default ProBox;
