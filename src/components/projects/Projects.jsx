@@ -1,3 +1,4 @@
+import { ProBox } from "./proBox";
 import {
   ProjectSection,
   SectionContainer,
