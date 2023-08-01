@@ -1,5 +1,17 @@
 import * as React from "react";
-import { ProBoxPro } from "./ProBox.styles";
+import { AiOutlineGithub } from "react-icons/ai";
+import { HiExternalLink } from "react-icons/hi";
+import {
+  ProBoxPro,
+  ProBoxImg,
+  ProBoxText,
+  ProBoxH3,
+  ProBoxP,
+  ProBoxStack,
+  ProBoxStackP,
+  ProBoxLinks,
+  ProBoxLinksA,
+} from "./ProBox.styles";
 
 export const ProBox = ({
   title,
@@ -11,45 +23,44 @@ export const ProBox = ({
   demo,
   scrollY,
   cName,
-  icon,
 }) => {
   const [scroll, setScroll] = React.useState(false);
 
   return (
     <ProBoxPro cName={cName}>
-      <div className="pro__img">
+      <ProBoxImg>
         <a target="_blank" href={demo} rel="noreferrer">
           <img
             src={img}
             alt="website"
             style={{
+              height: "auto",
               transform: scroll ? `translateY(${scrollY})` : "translateY(0%)",
-              transition: "transform 10s ease-in-out",
+              transition: "transform 7s ease-in-out",
+              width: "100%",
             }}
             onMouseEnter={() => setScroll(true)}
             onMouseLeave={() => setScroll(false)}
           />
         </a>
-      </div>
-      <div className="pro__text">
-        <h3>
-          {title} {icon}
-        </h3>
-        <p>{description}</p>
-        <div className="stack">
-          <p>{techno1}</p>
-          <p>{techno2}</p>
-        </div>
-        <div className="links">
-          <a target="_blank" href={code} rel="noreferrer">
-            Code <i className="fa-brands fa-github"></i>
-          </a>
-          <a target="_blank" href={demo} rel="noreferrer">
+      </ProBoxImg>
+      <ProBoxText>
+        <ProBoxH3>{title}</ProBoxH3>
+        <ProBoxP>{description}</ProBoxP>
+        <ProBoxStack>
+          <ProBoxStackP>{techno1}</ProBoxStackP>
+          <ProBoxStackP>{techno2}</ProBoxStackP>
+        </ProBoxStack>
+        <ProBoxLinks>
+          <ProBoxLinksA target="_blank" href={code} rel="noreferrer">
+            Code {<AiOutlineGithub size={25} />}
+          </ProBoxLinksA>
+          <ProBoxLinksA target="_blank" href={demo} rel="noreferrer">
             Live Demo
-            <i className="fa-solid fa-arrow-up-right-from-square link-icon"></i>
-          </a>
-        </div>
-      </div>
+            {<HiExternalLink size={25} />}
+          </ProBoxLinksA>
+        </ProBoxLinks>
+      </ProBoxText>
     </ProBoxPro>
   );
 };
