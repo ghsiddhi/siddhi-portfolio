@@ -11,7 +11,6 @@ import {
   ContactIconBoxSpanI,
   ContactInfo,
   ContactInfoH3,
-  ContactInfoP,
   ContactInfoA,
 } from "./Contact.styles";
 
@@ -22,7 +21,7 @@ export const Contact = () => {
         <ContactContent>
           <ContactTitle>
             <ContactTitleP>contact</ContactTitleP>
-            <ContactTitleH3>Don't be shy! Hit me up! 👇</ContactTitleH3>
+            <ContactTitleH3>Let's connect! Hit me up! 👇🏻</ContactTitleH3>
           </ContactTitle>
           <ContactIcons>
             <ContactIconBox>
@@ -31,7 +30,12 @@ export const Contact = () => {
               </ContactIconBoxSpan>
               <ContactInfo>
                 <ContactInfoH3>Location</ContactInfoH3>
-                <ContactInfoP>Bengaluru, India</ContactInfoP>
+                <ContactInfoA
+                  href="https://goo.gl/maps/BTGNQhMHy2aifEeZ6"
+                  target="_blank"
+                >
+                  Bengaluru, India
+                </ContactInfoA>
               </ContactInfo>
             </ContactIconBox>
 
