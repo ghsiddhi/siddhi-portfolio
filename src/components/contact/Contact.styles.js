@@ -87,17 +87,6 @@ export const ContactInfoH3 = styled("h3")(() => ({
   color: "#2d2e32",
 }));
 
-export const ContactInfoP = styled("p")(() => ({
-  fontSize: "1.7rem",
-  color: "#767676",
-  textDecoration: "none",
-  cursor: "pointer",
-  ":hover": {
-    color: "#147efb",
-    transition: "all 0.3s",
-  },
-}));
-
 export const ContactInfoA = styled("a")(() => ({
   fontSize: "1.7rem",
   color: "#767676",
