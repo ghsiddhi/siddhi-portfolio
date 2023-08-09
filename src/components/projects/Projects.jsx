@@ -1,3 +1,4 @@
+import Aovstudios from "../../images/aovstudios.png";
 import { ProBox } from "./proBox";
 import {
   ProjectSection,
@@ -20,22 +21,21 @@ export const Projects = () => {
           </ProjectContentH3>
           <ProjectsGrid>
             <ProBox
-              title="coindom"
-              //img={CoinDom}
-              description="Coindom is a crypto app that allows users to search for information about various cryptocurrencies in real-time."
+              title="aov studios"
+              img={Aovstudios}
+              description="The official website of AOV Studios, an Architecture firm. It is built in react.js and css using interactive elements, with a focus on simplicity and clean design, showcasing their work and expertise."
               techno1="React"
-              techno2="SCSS"
-              code="https://github.com/stefvndev/coindom-crypto"
-              demo="https://coindom-crypto-search.vercel.app/"
-              scrollY="-74%"
-              icon="🪙"
+              techno2="CSS"
+              code="https://github.com/GrowthVVork/aov-studios"
+              demo="https://aovstudios.co.in/"
+              scrollY="-75.5%"
               cName="reversed-proj"
             />
           </ProjectsGrid>
         </ProjectContent>
-        {/* <NewProjects className="new-projects">
-            New projects coming soon...🙂
-          </NewProjects> */}
+        <NewProjects className="new-projects">
+          More projects coming soon...🙂
+        </NewProjects>
       </SectionContainer>
     </ProjectSection>
   );
