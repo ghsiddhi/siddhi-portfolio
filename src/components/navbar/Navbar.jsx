@@ -45,7 +45,7 @@ export const Navbar = () => {
   return (
     <>
       <Nav>
-        <NavLogo onClick={pageUp}>Siddhi.dev</NavLogo>
+        <NavLogo onClick={pageUp}>Siddhi</NavLogo>
         <NavUl>
           {navlinks.map((item) => (
             <li key={item.name}>
