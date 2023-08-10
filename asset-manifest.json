@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/siddhi-portfolio/static/css/main.70b6e5cf.css",
+    "main.css": "/siddhi-portfolio/static/css/main.c4fcc098.css",
     "main.js": "/siddhi-portfolio/static/js/main.fc63edbe.js",
     "static/media/aovstudios.png": "/siddhi-portfolio/static/media/aovstudios.00f4732aeff6ff974a77.png",
     "static/media/desk-setup.png": "/siddhi-portfolio/static/media/desk-setup.ed19fae1dc45dcb8dcfd.png",
@@ -16,11 +16,11 @@
     "static/media/javascript.svg": "/siddhi-portfolio/static/media/javascript.de4c2594613e34b15666206bbede7327.svg",
     "static/media/css3.svg": "/siddhi-portfolio/static/media/css3.9cecabbf6ce67609c48bc4f280a11002.svg",
     "static/media/html.svg": "/siddhi-portfolio/static/media/html.6e7b1b463015c056aeb9a624c8dc2876.svg",
-    "main.70b6e5cf.css.map": "/siddhi-portfolio/static/css/main.70b6e5cf.css.map",
+    "main.c4fcc098.css.map": "/siddhi-portfolio/static/css/main.c4fcc098.css.map",
     "main.fc63edbe.js.map": "/siddhi-portfolio/static/js/main.fc63edbe.js.map"
   },
   "entrypoints": [
-    "static/css/main.70b6e5cf.css",
+    "static/css/main.c4fcc098.css",
     "static/js/main.fc63edbe.js"
   ]
 }
