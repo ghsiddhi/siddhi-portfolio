@@ -1,10 +1,10 @@
-import Waving from "../../images/waving.png";
-import Html from "../../images/icons/html.svg";
-import Css from "../../images/icons/css3.svg";
-import Js from "../../images/icons/javascript.svg";
-import React from "../../images/icons/react.svg";
-import Ts from "../../images/icons/typescript.svg";
-import Gql from "../../images/icons/graphQL.svg";
+import Waving from "../../assets/waving.png";
+import Html from "../../assets/icons/html.svg";
+import Css from "../../assets/icons/css3.svg";
+import Js from "../../assets/icons/javascript.svg";
+import React from "../../assets/icons/react.svg";
+import Ts from "../../assets/icons/typescript.svg";
+import Gql from "../../assets/icons/graphQL.svg";
 import {
   HeroWrapper,
   SectionContainer,
@@ -85,7 +85,7 @@ export const Hero = () => {
               </HeroTextSpan>
             </HeroText>
 
-            <HeroImage></HeroImage>
+            <HeroImage />
           </HeroMain>
 
           {/*  */}

@@ -1,6 +1,6 @@
 import { styled } from "@mui/material";
 import { keyframes } from "@emotion/react";
-import myImage from "../../images/my-img.webp";
+import myImage from "../../assets/my-img.webp";
 
 export const HeroWrapper = styled("section")(() => ({
   display: "flex",

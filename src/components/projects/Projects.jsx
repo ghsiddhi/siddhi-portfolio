@@ -1,4 +1,4 @@
-import Aovstudios from "../../images/aovstudios.png";
+import Aovstudios from "../../assets/aovstudios.png";
 import { ProBox } from "./proBox";
 import {
   ProjectSection,

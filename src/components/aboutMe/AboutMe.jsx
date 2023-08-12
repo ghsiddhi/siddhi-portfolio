@@ -1,4 +1,4 @@
-import { DeskSetup, RoundedText, WomanTechnologist } from "../../images";
+import { DeskSetup, RoundedText, WomanTechnologist } from "../../assets";
 import {
   AboutContent,
   ContentImage,
