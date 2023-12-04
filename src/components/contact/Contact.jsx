@@ -1,3 +1,5 @@
+import EmailIcon from '@mui/icons-material/Email';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
 import {
   ContactWrapper,
   SectionContainer,
@@ -26,7 +28,7 @@ export const Contact = () => {
           <ContactIcons>
             <ContactIconBox>
               <ContactIconBoxSpan>
-                <ContactIconBoxSpanI className="fa-solid fa-map-location-dot"></ContactIconBoxSpanI>
+                <ContactIconBoxSpanI><LocationOnIcon height="2em" width="2em" fontSize='2em'/></ContactIconBoxSpanI>
               </ContactIconBoxSpan>
               <ContactInfo>
                 <ContactInfoH3>Location</ContactInfoH3>
@@ -41,7 +43,7 @@ export const Contact = () => {
 
             <ContactIconBox>
               <ContactIconBoxSpan>
-                <ContactIconBoxSpanI className="fa-solid fa-envelope-open-text"></ContactIconBoxSpanI>
+                <ContactIconBoxSpanI><EmailIcon height="2em" width="2em" /></ContactIconBoxSpanI>
               </ContactIconBoxSpan>
               <ContactInfo>
                 <ContactInfoH3>Email</ContactInfoH3>

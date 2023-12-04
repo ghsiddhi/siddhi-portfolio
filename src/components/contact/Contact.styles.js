@@ -72,7 +72,7 @@ export const ContactIconBoxSpan = styled("span")(() => ({
 }));
 
 export const ContactIconBoxSpanI = styled("i")(() => ({
-  fontSize: "3rem",
+  fontSize: "1rem",
   color: "#147efb",
 }));
 
