@@ -1,3 +1,4 @@
+import { GitHub, LinkedIn } from "@mui/icons-material";
 import Waving from "../../assets/waving.png";
 import Html from "../../assets/icons/html.svg";
 import Css from "../../assets/icons/css3.svg";
@@ -24,7 +25,6 @@ import {
   SkillsUlLi,
   SkillsUlLiImg,
 } from "./Hero.styles";
-import { GitHub, LinkedIn } from "@mui/icons-material";
 
 export const Hero = () => {
   const skillsIcons = [
