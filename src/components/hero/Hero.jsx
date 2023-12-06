@@ -24,6 +24,7 @@ import {
   SkillsUlLi,
   SkillsUlLiImg,
 } from "./Hero.styles";
+import { GitHub, LinkedIn } from "@mui/icons-material";
 
 export const Hero = () => {
   const skillsIcons = [
@@ -72,7 +73,7 @@ export const Hero = () => {
                   target="_blank"
                   href="https://www.linkedin.com/in/siddhi-gupta-/"
                 >
-                  <HeroTextSpanI className="fa-brands fa-linkedin"></HeroTextSpanI>
+                  <HeroTextSpanI><LinkedIn fontSize="32px" /></HeroTextSpanI>
                 </HeroTextSpanA>
                 <HeroTextSpanA
                   aria-label="github"
@@ -80,7 +81,7 @@ export const Hero = () => {
                   target="_blank"
                   href="https://github.com/siddhi-gh"
                 >
-                  <HeroTextSpanI className="fa-brands fa-github"></HeroTextSpanI>
+                  <HeroTextSpanI><GitHub fontSize="32px" /></HeroTextSpanI>
                 </HeroTextSpanA>
               </HeroTextSpan>
             </HeroText>
