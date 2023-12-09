@@ -73,15 +73,15 @@ export const Hero = () => {
                   target="_blank"
                   href="https://www.linkedin.com/in/siddhi-gupta-/"
                 >
-                  <HeroTextSpanI><LinkedIn fontSize="32px" /></HeroTextSpanI>
+                  <HeroTextSpanI><LinkedIn fontSize="34px" /></HeroTextSpanI>
                 </HeroTextSpanA>
                 <HeroTextSpanA
                   aria-label="github"
                   rel="noreferrer"
                   target="_blank"
-                  href="https://github.com/siddhi-gh"
+                  href="https://github.com/siddhijll"
                 >
-                  <HeroTextSpanI><GitHub fontSize="32px" /></HeroTextSpanI>
+                  <HeroTextSpanI><GitHub fontSize="34px" /></HeroTextSpanI>
                 </HeroTextSpanA>
               </HeroTextSpan>
             </HeroText>
