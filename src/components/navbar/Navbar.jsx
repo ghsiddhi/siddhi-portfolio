@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { navlinks } from "../../constants";
 import {
   Nav,
   NavUl,
@@ -22,25 +23,6 @@ export const Navbar = () => {
   const pageUp = () => {
     window.scrollTo({ top: (0, 0), behavior: "smooth" });
   };
-
-  const navlinks = [
-    {
-      name: "Home",
-      link: "#home",
-    },
-    {
-      name: "About",
-      link: "#about",
-    },
-    {
-      name: "Projects",
-      link: "#projects",
-    },
-    {
-      name: "Contact",
-      link: "#contact",
-    },
-  ];
 
   return (
     <>
