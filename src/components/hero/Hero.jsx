@@ -22,7 +22,6 @@ import {
 } from "./Hero.styles";
 
 export const Hero = () => {
-
   return (
     <HeroWrapper id="home">
       <SectionContainer>
