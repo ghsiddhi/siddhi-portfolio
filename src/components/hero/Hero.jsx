@@ -41,7 +41,7 @@ export const Hero = () => {
                   target="_blank"
                   href="https://www.linkedin.com/in/siddhi-gupta-/"
                 >
-                  <HeroTextSpanI><LinkedIn fontSize="34px" /></HeroTextSpanI>
+                  <HeroTextSpanI><LinkedIn fontSize="42px" /></HeroTextSpanI>
                 </HeroTextSpanA>
                 <HeroTextSpanA
                   aria-label="github"
@@ -49,7 +49,7 @@ export const Hero = () => {
                   target="_blank"
                   href="https://github.com/siddhijll"
                 >
-                  <HeroTextSpanI><GitHub fontSize="34px" /></HeroTextSpanI>
+                  <HeroTextSpanI><GitHub fontSize="40px" /></HeroTextSpanI>
                 </HeroTextSpanA>
               </HeroTextSpan>
             </HeroText>
