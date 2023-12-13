@@ -103,7 +103,7 @@ export const HeroTextSpan = styled("span")(() => ({
 }));
 
 export const HeroTextSpanA = styled("a")(() => ({
-  fontSize: "3rem",
+  fontSize: "3.2rem",
   color: "#2d2e32",
 }));
 
