@@ -33,10 +33,10 @@ export const AboutMe = () => {
               📍
             </ContentTextH4>
             <ContentTextP>
-              As a Junior Front-End Developer, I possess an impressive arsenal
+              As a Front-End Developer, I possess an impressive arsenal
               of skills in CSS, JavaScript, TypeScript and React. I excel in
               designing and maintaining responsive websites that offer a smooth
-              user experience. My expertise lies in crafting engaging interfaces
+              user experience. My expertise lies in working on engaging user interfaces
               through writing clean and optimized code and utilizing
               cutting-edge development tools and techniques. I am also a team
               player who thrives in collaborating with cross-functional teams to
