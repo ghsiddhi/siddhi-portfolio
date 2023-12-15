@@ -1,10 +1,10 @@
 ## Siddhi's Portfolio
 
-This is a Portfolio website built with React.js.
+This is a Portfolio website built with javascript and React.
 
 ### Live link
 
-https://siddhi-gh.github.io/siddhi-portfolio/
+https://siddhijll.github.io/siddhi-portfolio/
 
 ### Tech stack used
 
