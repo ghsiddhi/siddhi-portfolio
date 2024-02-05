@@ -4,7 +4,7 @@ This is a Portfolio website built with javascript and React.
 
 ### Live link
 
-https://siddhijll.github.io/siddhi-portfolio/
+https://ghsiddhi.github.io/siddhi-portfolio/
 
 ### Tech stack used
 
