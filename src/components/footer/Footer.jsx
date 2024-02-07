@@ -21,7 +21,7 @@ export const Footer = () => {
               aria-label="linkedin"
               target="_blank"
               rel="noreferrer"
-              href="https://www.linkedin.com/in/siddhi-gupta-/"
+              href="https://www.linkedin.com/in/gsiddhi/"
             >
               <FooterRcSocialIcon>
                 <FaLinkedin />
@@ -31,7 +31,7 @@ export const Footer = () => {
               aria-label="github"
               target="_blank"
               rel="noreferrer"
-              href="https://github.com/siddhijll"
+              href="https://github.com/ghsiddhi"
             >
               <FooterRcSocialIcon>
                 <FaGithub />
