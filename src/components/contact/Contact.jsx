@@ -1,5 +1,5 @@
-import EmailIcon from '@mui/icons-material/Email';
-import LocationOnIcon from '@mui/icons-material/LocationOn';
+import EmailIcon from "@mui/icons-material/Email";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 import {
   ContactWrapper,
   SectionContainer,
@@ -27,24 +27,24 @@ export const Contact = () => {
           </ContactTitle>
           <ContactIcons>
             <ContactIconBox>
-              <ContactIconBoxSpan>
+              {/* <ContactIconBoxSpan>
                 <ContactIconBoxSpanI><LocationOnIcon height="2em" width="2em" fontSize='2em'/></ContactIconBoxSpanI>
-              </ContactIconBoxSpan>
+              </ContactIconBoxSpan> */}
               <ContactInfo>
                 <ContactInfoH3>Location</ContactInfoH3>
                 <ContactInfoA
                   href="https://goo.gl/maps/BTGNQhMHy2aifEeZ6"
                   target="_blank"
                 >
-                  Bengaluru, India
+                  Indore, India
                 </ContactInfoA>
               </ContactInfo>
             </ContactIconBox>
 
             <ContactIconBox>
-              <ContactIconBoxSpan>
+              {/* <ContactIconBoxSpan>
                 <ContactIconBoxSpanI><EmailIcon height="2em" width="2em" /></ContactIconBoxSpanI>
-              </ContactIconBoxSpan>
+              </ContactIconBoxSpan> */}
               <ContactInfo>
                 <ContactInfoH3>Email</ContactInfoH3>
                 <ContactInfoA href="mailto:siddhiusgupta@gmail.com">

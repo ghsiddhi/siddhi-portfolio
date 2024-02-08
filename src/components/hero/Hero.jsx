@@ -1,6 +1,6 @@
 import { GitHub, LinkedIn } from "@mui/icons-material";
 import Waving from "../../assets/waving.png";
-import {skillsIcons} from '../../constants'
+import { skillsIcons } from "../../constants";
 import {
   HeroWrapper,
   SectionContainer,
@@ -32,24 +32,28 @@ export const Hero = () => {
               <HeroTextSpanImg src={Waving} alt="waving_hand" />
               <HeroTextP>
                 Hi, I'm Siddhi Gupta. A passionate Front-end React Developer
-                based in Bengaluru, India. 📍
+                based in India. 📍
               </HeroTextP>
               <HeroTextSpan>
                 <HeroTextSpanA
                   aria-label="linkedin"
                   rel="noreferrer"
                   target="_blank"
-                  href="https://www.linkedin.com/in/siddhi-gupta-/"
+                  href="https://www.linkedin.com/in/gsiddhi/"
                 >
-                  <HeroTextSpanI><LinkedIn fontSize="42px" /></HeroTextSpanI>
+                  <HeroTextSpanI>
+                    <LinkedIn fontSize="42px" />
+                  </HeroTextSpanI>
                 </HeroTextSpanA>
                 <HeroTextSpanA
                   aria-label="github"
                   rel="noreferrer"
                   target="_blank"
-                  href="https://github.com/siddhijll"
+                  href="https://github.com/ghsiddhi"
                 >
-                  <HeroTextSpanI><GitHub fontSize="40px" /></HeroTextSpanI>
+                  <HeroTextSpanI>
+                    <GitHub fontSize="40px" />
+                  </HeroTextSpanI>
                 </HeroTextSpanA>
               </HeroTextSpan>
             </HeroText>
